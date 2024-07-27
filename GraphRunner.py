@@ -104,5 +104,6 @@ for c in POIGraph.getGraph(): ##WHY WONT THIS ITERATE OVER OBJECTS WTF
     w.create_oval(x - 20, y - 20, x + 20, y + 20, fill='blue', activefill='red', width=3)
 mainloop()
 
+#git test
 
 #when hovered calculate 'math.log10(abs(dx))' increaing slowly and drawing a line each time
