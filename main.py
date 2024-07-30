@@ -111,4 +111,6 @@ if __name__ == '__main__':
     teleThread.daemon = True
     teleThread.start()
 
+    print('end script with page down')
+
     keyboard.wait('page down')
